@@ -16,13 +16,13 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"gopkg.in/yaml.v2"
 
-	"github.com/foogod/go-powerwall"
+	"github.com/aqua/go-powerwall"
 )
 
 const (
 	exporterName = "powerwall"
 	exporterVersion = "0.2.0"
-	projectURL = "https://github.com/foogod/powerwall_exporter"
+	projectURL = "https://github.com/aqua/powerwall_exporter"
 	defaultListenAddress = ":9871"
 	defaultMetricsPath = "/metrics"
 	defaultLoginEmail = "powerwall_exporter@example.org"
